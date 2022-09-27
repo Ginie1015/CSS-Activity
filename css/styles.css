@@ -1,36 +1,45 @@
 body{
     background-color: darkgray;
-    text-align: center;
-    margin: auto;
+    
+}
+.circle-picture{
+    margin-top: 20px;
+    border-radius: 50%;
+    width: 150px;
 }
 h1{
     text-transform: uppercase;
     font-family: 'Courier New', Courier, monospace;
 }
-p{
-    font-family: 'Courier New', Courier, monospace;
-    text-align: center;
-}
-.picture{
-    max-width: 20%;
-    height: auto;
-}
 .fb-logo{
-    max-width: 2%;
-    height: auto;
+    border-radius: 50%;
+    width: 15px;
 }
 
-div {
-    height: 500px;
-    width: 950px;
-    padding: 10px;
-    margin: 225px;
+.center{
     background-color: white;
-  }
-.circle{
-    align-content: center;
-    border-radius: 50%;
+    box-shadow: 1px 1px 1px 1px grey;
+    width: 750px;
+    height: 360px;
+    text-align: center;
+
+    margin-top: 10%;
+    margin-right:auto;
+    margin-bottom: 10%;
+    margin-left:auto;
 }
-a:hover{
-    background-color: aquamarine;
+.hoverover:hover{
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    background-color: #3d5595;
+    padding: 5px;
+    border-radius: 25px;
+}
+.link:hover{
+    color: white;
+}
+.link{
+    text-decoration: none;
 }
